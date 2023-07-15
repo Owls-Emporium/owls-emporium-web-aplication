@@ -40,22 +40,22 @@ const Navbar = () => {
           <a className="flex title-font font-medium items-center mb-4 md:mb-0">
             <img src={logo} alt="logo" className="w-[48px]" />
             <span className={`ml-3 text-xl font-bold ${navbarTextColor}`}>
-              Olws Emporium
+              Owls Emporium
             </span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-semibold">
             <a
-              className={`mr-5 cursor-pointer hover:underline ${navbarTextColor}`}
+              className={`mr-5 cursor-pointer hover:underline ${navbarTextColor}`} href=""
             >
               Home
             </a>
             <a
-              className={`mr-5 cursor-pointer hover:underline ${navbarTextColor}`}
+              className={`mr-5 cursor-pointer hover:underline ${navbarTextColor}`} href="#about"
             >
               About
             </a>
             <a
-              className={`mr-5 cursor-pointer hover:underline ${navbarTextColor}`}
+              className={`mr-5 cursor-pointer hover:underline ${navbarTextColor}`} href="#download"
             >
               API
             </a>

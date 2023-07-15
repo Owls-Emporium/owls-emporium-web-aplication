@@ -7,7 +7,7 @@ const DownloadNow = () => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="flex flex-col justify-center items-center h-screen p-10">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-600 text-center ">
+          <h1 id="download" className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-600 text-center ">
             What are you waiting for? <br/> Get our application in the Google
             Play store.
           </h1>
